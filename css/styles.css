@@ -30,8 +30,29 @@ img {
   background-color: #937900;
   height: 220px;
   padding: 20px;
-  overflow-x: auto;
+ 
 }
+/* sanae*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #wrapper{
+    overflow-y: auto;
+    height: 1000px;
+   }
+  .vignette{
+     margin-top: 20px;
+   }
+  .item-catalogue{
+    min-width: 200px;
+    margin-right: 20px;
+    height: 30px;
+   }
+   #image{
+     position: fixed;
+     right: 0;
+   }
+}
+
+/*******/
 
 .vignette {
   margin-right: 20px;
